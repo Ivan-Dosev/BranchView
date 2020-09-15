@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7074E6E225113A210029542A /* OrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074E6E125113A210029542A /* OrangeView.swift */; };
+		7074E6E425113E230029542A /* VarnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074E6E325113E230029542A /* VarnaView.swift */; };
 		70C0235B251055040059BD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0235A251055040059BD80 /* AppDelegate.swift */; };
 		70C0235D251055040059BD80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0235C251055040059BD80 /* SceneDelegate.swift */; };
 		70C02360251055040059BD80 /* BranchView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70C0235E251055040059BD80 /* BranchView.xcdatamodeld */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		7074E6E125113A210029542A /* OrangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeView.swift; sourceTree = "<group>"; };
+		7074E6E325113E230029542A /* VarnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarnaView.swift; sourceTree = "<group>"; };
 		70C02357251055040059BD80 /* BranchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BranchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C0235A251055040059BD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C0235C251055040059BD80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				70C02361251055040059BD80 /* ContentView.swift */,
 				70C0239C251129660059BD80 /* MechoView.swift */,
 				7074E6E125113A210029542A /* OrangeView.swift */,
+				7074E6E325113E230029542A /* VarnaView.swift */,
 				70C0239A2510F8AF0059BD80 /* Lotch.swift */,
 				70C02398251085F30059BD80 /* PickerDossiView.swift */,
 				70C02363251055110059BD80 /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7074E6E425113E230029542A /* VarnaView.swift in Sources */,
 				70C02360251055040059BD80 /* BranchView.xcdatamodeld in Sources */,
 				70C0235B251055040059BD80 /* AppDelegate.swift in Sources */,
 				7074E6E225113A210029542A /* OrangeView.swift in Sources */,
