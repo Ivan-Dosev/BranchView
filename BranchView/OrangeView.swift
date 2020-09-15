@@ -12,7 +12,14 @@ struct OrangeView: View {
     var body: some View {
         VStack {
             Color.orange.opacity(0.3)
-            Text("Orange")
+            
+            VStack {
+                ForEach(0..<5) { index in
+                   Text("Orange\(index)")
+                    .padding()
+                }
+               
+            }
         }
     }
 }
