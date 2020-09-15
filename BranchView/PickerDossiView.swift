@@ -23,13 +23,24 @@ struct PickerDossiView: View {
     var body: some View {
         
         VStack {
+            ZStack{
+                Text("     \(selections[0]) hour")
+                    .offset(x: -110)
+                Text("     \(selections[1]) minute")
+                Text("     \(selections[2]) second")
+                    .offset(x: 110)
+            }
+            .frame(width: width / 1.2, height: 50)
+            .background(Color.black.opacity(0.2))
+            .cornerRadius(10)
             
-            PickerView(data: self.data, selections: self.$selections)
-                .frame(width: width / 1.2)
-            
+            VStack {
+                PickerView(data: self.data, selections: self.$selections)
+                    .frame(width: width / 1.2)
+            }
+            .background(Color.gray.opacity(0.2))
+            .cornerRadius(10)
         }
-        .background(Color.gray.opacity(0.2))
-        .cornerRadius(10)
     }
 }
 
