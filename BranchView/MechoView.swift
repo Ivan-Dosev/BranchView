@@ -10,7 +10,13 @@ import SwiftUI
 
 struct MechoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.green.opacity(0.2)
+            edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("mecho View")
+            }
+        }
     }
 }
 
