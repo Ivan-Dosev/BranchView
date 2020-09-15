@@ -9,9 +9,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isShow : Bool = false
+    
     var body: some View {
         VStack {
-                PickerDossiView()
+            VStack {
+                if isShow {
+                           PickerDossiView()
+                }else{
+                           Lotch()
+                }
+                       
+                
+            }.edgesIgnoringSafeArea(.top)
+            Spacer()
+            Button(action: {
+                self.isShow.toggle()
+            }) {
+                Text(self.isShow ? "start" : "stop")
+                    .padding()
+                    .background(Color.gray.opacity(0.3))
+            }
         }
     }
 }

@@ -40,7 +40,7 @@ struct PickerDossiView: View {
             }
             .background(Color.gray.opacity(0.2))
             .cornerRadius(10)
-        }
+        } .frame(width: width / 1.2 , height: width / 1.2)
     }
 }
 

@@ -17,6 +17,7 @@
 		70C02375251055110059BD80 /* BranchViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C02374251055110059BD80 /* BranchViewTests.swift */; };
 		70C02380251055110059BD80 /* BranchViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0237F251055110059BD80 /* BranchViewUITests.swift */; };
 		70C02399251085F30059BD80 /* PickerDossiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C02398251085F30059BD80 /* PickerDossiView.swift */; };
+		70C0239B2510F8AF0059BD80 /* Lotch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0239A2510F8AF0059BD80 /* Lotch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		70C0237F251055110059BD80 /* BranchViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchViewUITests.swift; sourceTree = "<group>"; };
 		70C02381251055110059BD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C02398251085F30059BD80 /* PickerDossiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDossiView.swift; sourceTree = "<group>"; };
+		70C0239A2510F8AF0059BD80 /* Lotch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				70C0235A251055040059BD80 /* AppDelegate.swift */,
 				70C0235C251055040059BD80 /* SceneDelegate.swift */,
 				70C02361251055040059BD80 /* ContentView.swift */,
+				70C0239A2510F8AF0059BD80 /* Lotch.swift */,
 				70C02398251085F30059BD80 /* PickerDossiView.swift */,
 				70C02363251055110059BD80 /* Assets.xcassets */,
 				70C02368251055110059BD80 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			files = (
 				70C02360251055040059BD80 /* BranchView.xcdatamodeld in Sources */,
 				70C0235B251055040059BD80 /* AppDelegate.swift in Sources */,
+				70C0239B2510F8AF0059BD80 /* Lotch.swift in Sources */,
 				70C02362251055040059BD80 /* ContentView.swift in Sources */,
 				70C0235D251055040059BD80 /* SceneDelegate.swift in Sources */,
 				70C02399251085F30059BD80 /* PickerDossiView.swift in Sources */,
