@@ -18,7 +18,7 @@ struct PickerDossiView: View {
         Array(0...60).map { "\($0)" + " s"}
     ]
 
-    @State private var selections: [Int] = [1, 0, 0]
+    @Binding var selections: [Int]
     
     var body: some View {
         
@@ -44,11 +44,7 @@ struct PickerDossiView: View {
     }
 }
 
-struct PickerDossiView_Previews: PreviewProvider {
-    static var previews: some View {
-        PickerDossiView()
-    }
-}
+
 
 struct PickerView: UIViewRepresentable {
     var data: [[String]]

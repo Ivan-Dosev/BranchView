@@ -10,14 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isShow : Bool = false
+    @State private var selections: [Int] = [1, 0, 0]
     
     var body: some View {
         VStack {
             VStack {
                 if isShow {
-                           PickerDossiView()
+                           PickerDossiView(selections: $selections)
                 }else{
-                           Lotch()
+                           Lotch(selections: selections)
                 }
                        
                 

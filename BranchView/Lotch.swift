@@ -11,10 +11,13 @@ import SwiftUI
 struct Lotch: View {
     
      var width = UIScreen.main.bounds.width
+     var selections: [Int]
     
     var body: some View {
         VStack {
-            Text("Arda view")
+            Text("hours - \(selections[0])")
+             Text("minuts - \(selections[1])")
+             Text("secund - \(selections[2])")
             
         }
         .frame(width: width / 1.2 , height: width / 1.2)
@@ -25,8 +28,4 @@ struct Lotch: View {
     }
 }
 
-struct Lotch_Previews: PreviewProvider {
-    static var previews: some View {
-        Lotch()
-    }
-}
+
