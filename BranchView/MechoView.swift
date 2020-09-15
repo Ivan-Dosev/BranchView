@@ -14,7 +14,11 @@ struct MechoView: View {
             Color.green.opacity(0.2)
             edgesIgnoringSafeArea(.all)
             VStack {
-                Text("mecho View")
+                ForEach(0..<10) { index in
+                      Text("mecho View \(index)")
+                        .padding()
+                }
+              
             }
         }
     }
